@@ -1,0 +1,57 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Archives and temporary files
+*.zip
+*.tar.gz
+*.rar
+*.tar
+*.gz
+*.7z
+*.tmp
+*.bak
+
+# PySide6 UI cache
+*.pyi
+
+# Faiss database
+/vector_db/
+*.index
+metadata.json
+
+# Torch cache
+*.pt
+*.pth
+
+# Build artifacts
+build/
+dist/
+
+# Other
+*.sqlite3
+*.db
