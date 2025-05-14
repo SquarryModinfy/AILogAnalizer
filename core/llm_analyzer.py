@@ -1,7 +1,3 @@
-"""
-Класс для анализа логов с помощью LLM
-"""
-
 import requests
 from PySide6.QtCore import QThread, Signal
 from core.constants import logger

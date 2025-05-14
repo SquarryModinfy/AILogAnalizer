@@ -1,8 +1,3 @@
-"""
-Стили для интерфейса приложения
-"""
-
-# Основной стиль приложения
 MAIN_STYLE = """
 QMainWindow {
     background-color: #f0f0f0;
@@ -60,7 +55,6 @@ QStatusBar {
 }
 """
 
-# Стиль для окна загрузки
 LOADING_WINDOW_STYLE = """
 QDialog {
     background-color: #ffffff;
@@ -79,7 +73,6 @@ QProgressBar::chunk {
 }
 """
 
-# Стиль для окна настроек
 SETTINGS_WINDOW_STYLE = """
 QDialog {
     background-color: #ffffff;

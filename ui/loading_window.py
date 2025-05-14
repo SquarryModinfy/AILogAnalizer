@@ -1,7 +1,3 @@
-"""
-Окно загрузки приложения
-"""
-
 from PySide6.QtWidgets import QDialog, QVBoxLayout, QLabel, QProgressBar
 from PySide6.QtCore import Qt
 from ui.styles import LOADING_WINDOW_STYLE
@@ -20,7 +16,7 @@ class LoadingWindow(QDialog):
         layout.addWidget(self.loading_label)
         
         self.progress_bar = QProgressBar()
-        self.progress_bar.setRange(0, 0)  # Бесконечный прогресс
+        self.progress_bar.setRange(0, 0)
         layout.addWidget(self.progress_bar)
         
         self.setStyleSheet(LOADING_WINDOW_STYLE) 

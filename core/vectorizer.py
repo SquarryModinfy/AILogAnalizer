@@ -1,7 +1,3 @@
-"""
-Класс для работы с векторной базой данных
-"""
-
 import os
 import json
 import numpy as np
