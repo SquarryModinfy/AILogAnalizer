@@ -15,3 +15,4 @@ rarfile
 pywin32
 python-json-logger
 zipp
+markdown
